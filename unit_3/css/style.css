@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    font-family: sans-serif;-serif;
+}
+
+h1, p {
+    color: black;
+}
+
+#slogan {
+	font-style: italic;
+
+}
+#definition {
+	color: green;
+}
