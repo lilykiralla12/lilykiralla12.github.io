@@ -1,16 +1,21 @@
+}
 body {
     background-color: white;
     font-family: sans-serif;-serif;
+}
+img.resize {
+    width:200px; 
+    height: auto;
 }
 
 h1, p {
     color: black;
 }
 
-#slogan {
+.slogan {
 	font-style: italic;
 
 }
-#definition {
+.definition {
 	color: green;
 }
