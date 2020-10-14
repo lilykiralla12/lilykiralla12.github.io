@@ -24,67 +24,84 @@ h1, p {
 
 }
 .definition {
-	color: green;
+	color: black;
 }
 
 header {
-	background-color: #FFED74;
+	background-color: #20B2AA;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #7FFFD4;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 aside {
-	background-color: #FFC675;
+	background-color: #20B2AA;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #FFFFFF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 section {
-	background-color: #FFE2B8;
+	background-color: #FFFFFF;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-article {
-	background-color: #FFE2B8;
+.newsletter {
+	background-color: #FF7F50;
 	border: 1px black solid;
 	padding: 20px;
+	clear: both;
+
 }
 
 #two-column {
-	background-color: #FFB7CF;
+	background-color: #008080;
 	border: 1px black solid;
 	padding: 20px;
+	clear: both;
 
 }
 #left {
-	background-color: #E582A2;
+	background-color: #20B2AA;
 	border: 1px black solid;
 	padding: 20px;
+	float: left;
+	width: 46%;
 
 }
 
 #right {
-	background-color: #E55B88;
+	background-color: #20B2AA;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 46%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " "
+	clear: both;
+	height: 0;
 
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #FF7F50;
 	border: 1px black solid;
 	padding: 20px;
 }
