@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-color: white;
+    font-family: Lora;
+}
+
+
+img.resize {
+    width:100%; 
+    height: auto;
+}
+
+h1, p {
+    color: black;
+}
+
+h1, h2, h3, h4 {
+	font-family: sans-serif;
+}
+
+.logo {
+	width: 20%;
+	height: auto;
+	float: left;
+	display: inline;
+
+}
+.slogan {
+	font-style: italic;
+	float: right;
+}
+
+.definition {
+	color: black;
+	font-weight: bold;
+}
+
+
+header {
+	background-color: #20B2AA;
+	border: 1% black solid;
+	padding: 5%;
+}
+
+nav {
+	background-color: #7FFFD4;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: white;
+
+}
+
+.aside {
+	background-color: #20B2AA;
+	border: 1% black solid;
+	padding: 20%;
+	width: 50%;
+}
+
+article {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.newsletter {
+	background-color: #FF7F50;
+	border: 1px black solid;
+	padding: 20px;
+	clear: both;
+
+}
+
+#two-column {
+	background-color: #008080;
+	border: 1px black solid;
+	padding: 20px;
+	clear: both;
+
+}
+#left {
+	background-color: #20B2AA;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+
+}
+
+#right {
+	background-color: #20B2AA;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 46%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+footer {
+	background-color: #FF7F50;
+	border: 1px black solid;
+	padding: 20px;
+}
