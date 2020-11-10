@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-color: white;
+    font-family: Lora;
+}
+
+
+img.resize {
+    width:100%; 
+    height: auto;
+}
+
+h1, p {
+    color: black;
+}
+
+h1, h2, h3, h4 {
+	font-family: sans-serif;
+}
+
+.logo {
+	width: 20%;
+	height: auto;
+	float: left;
+	display: inline;
+
+}
+.slogan {
+	font-style: italic;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.25 em;
+}
+
+.definition {
+	color: black;
+	font-weight: bold;
+}
+
+
+header {
+	background-color: #7FFFD4;
+	border: 1% black solid;
+	padding: 0%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 1em;
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+
+}
+
+.aside {
+	background-color: #20B2AA;
+	border: 1% black solid;
+	padding: 20%;
+	width: 50%;
+}
+
+article {
+	background-color: #FFFFFF;
+	border: 1px #FFFFFF;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFFFFF;
+	border: 1px #FFFFFF;
+	padding: 20px;
+}
+
+.newsletter {
+	background-color: #7FFFD4;
+	border: 1px #7FFFD4;
+	padding: 20px;
+	clear: both;
+
+}
+
+#two-column {
+	background-color: #FFFACD;
+	border: 1px #FFFACD;
+	padding: 20px;
+	clear: both;
+
+}
+#left {
+	background-color: #FFFACD;
+	border: 1px #FFFACD;
+	padding: 20px;
+	float: left;
+	width: 46%;
+
+}
+
+#right {
+	background-color: ##FFFACD;
+	border: 1px #FFFACD;
+	padding: 20px;
+	float: right;
+	width: 46%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+footer {
+	background-color: #7FFFD4;
+	border: 1px #7FFFD4;
+	padding: 20px;
+}
