@@ -11,9 +11,6 @@ img.resize {
     height: auto;
 }
 
-h1, p {
-    color: black;
-}
 
 h1, h2, h3, h4 {
 	font-family: sans-serif;
@@ -37,6 +34,7 @@ h1, h2, h3, h4 {
 .definition {
 	color: black;
 	font-weight: bold;
+	background-color: #7FFFD4;
 }
 
 
@@ -51,19 +49,21 @@ nav a {
 	padding: 1em;
 	color: #000;
 	text-decoration: none;
+	float: right;
+	margin-top: 10em;
+
 }
 
 a:hover {
 	background-color: white;
 
 }
-
-.aside {
-	background-color: #20B2AA;
-	border: 1% black solid;
-	padding: 20%;
+.bed{
+	padding: 5%;
 	width: 50%;
+
 }
+
 
 article {
 	background-color: #FFFFFF;
@@ -71,10 +71,43 @@ article {
 	padding: 20px;
 }
 
+
 section {
 	background-color: #FFFFFF;
 	border: 1px #FFFFFF;
 	padding: 20px;
+}
+
+
+aside {
+	width: 48%;
+	float: left;
+	margin: 0 .5%;
+	padding: 2em;
+	display: block;
+	box-sizing: border-box;
+}
+
+#two-column {
+	border: 1px
+	padding: 20px;
+	clear: both;
+
+}
+.left {
+	border: 1px 
+	padding: 20px;
+	float: left;
+	width: 46%;
+
+}
+
+.right {
+	border: 1px
+	padding: 20px;
+	float: right;
+	width: 46%;
+
 }
 
 .newsletter {
@@ -85,31 +118,6 @@ section {
 
 }
 
-#two-column {
-	background-color: #FFFACD;
-	border: 1px #FFFACD;
-	padding: 20px;
-	clear: both;
-
-}
-#left {
-	background-color: #FFFACD;
-	border: 1px #FFFACD;
-	padding: 20px;
-	float: left;
-	width: 46%;
-
-}
-
-#right {
-	background-color: ##FFFACD;
-	border: 1px #FFFACD;
-	padding: 20px;
-	float: right;
-	width: 46%;
-
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -117,11 +125,18 @@ section {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+.row {
+	float: left;
+}
 
+.contact {
+	float: right;
 }
 
 footer {
 	background-color: #7FFFD4;
 	border: 1px #7FFFD4;
-	padding: 20px;
+	padding: .5em;
+
 }
