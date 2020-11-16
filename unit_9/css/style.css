@@ -58,12 +58,19 @@ a:hover {
 	background-color: white;
 
 }
-.bed{
+.bed {
 	padding: 5%;
-	width: 50%;
+	width: 40%;
+	float: left;
 
 }
 
+.table {
+	padding: 5%;
+	width: 40%;
+	float: right;
+
+}
 
 article {
 	background-color: #FFFFFF;
