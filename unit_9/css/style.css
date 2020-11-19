@@ -33,10 +33,15 @@ h1, h2, h3, h4 {
 
 .definition {
 	color: black;
-	font-weight: bold;
 	background-color: #7FFFD4;
+	text-align: center;
 }
 
+span {
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
 
 header {
 	background-color: #7FFFD4;
@@ -58,19 +63,16 @@ a:hover {
 	background-color: white;
 
 }
-.bed {
-	padding: 5%;
-	width: 40%;
-	float: left;
+
+#top {
+	background-color: #FFFFFF;
+	border: 1px
+	padding: 20px;
+	width: 50%;
+	display: block;
 
 }
 
-.table {
-	padding: 5%;
-	width: 40%;
-	float: right;
-
-}
 
 article {
 	background-color: #FFFFFF;
@@ -137,13 +139,32 @@ aside {
 	float: left;
 }
 
+.bottom-nav{
+	clear: both;
+	background-color: #7FFFD4;
+	padding: .5em;
+	color: #000;
+	text-decoration: none;
+}
+
 .contact {
-	float: right;
+	float: left;
+	color: #000;
+	text-decoration: none;
 }
 
 footer {
 	background-color: #7FFFD4;
 	border: 1px #7FFFD4;
 	padding: .5em;
+
+}
+
+@media (max-width: 991px) {
+	nav a {
+		font-size: 80%;
+
+	}
+
 
 }
